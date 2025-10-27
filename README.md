@@ -24,7 +24,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 ```
-## Line Plot <br>
+Line Plot <br>
 ```
 marks=[13,45,63,78]
 student=['ABC','QOR','EFB','TOB']
@@ -41,7 +41,7 @@ plt.show()
 ```
 <img width="1115" height="662" alt="image" src="https://github.com/user-attachments/assets/d4e953bd-deff-4dec-afbe-cbeb039e4c5f" />
 <img width="954" height="584" alt="image" src="https://github.com/user-attachments/assets/d8eb0001-48bc-4786-93d2-9053eb1ea5a6" /> <br>
-##  Scatter Plot: 
+  Scatter Plot: 
 ```
 x=[10,20,30,40,50]
 y=[100,200,300,400,500]
@@ -60,7 +60,7 @@ plt.show()
 
 <img width="1042" height="628" alt="image" src="https://github.com/user-attachments/assets/2439860f-efd8-4e69-82f9-054182dfe4c2" />
 <img width="842" height="444" alt="image" src="https://github.com/user-attachments/assets/c8fc0adf-0ac5-468f-9d30-176adb151484" />
-## Pie Chart <br>
+Pie Chart <br>
 ```
 act=['eat','sleep','work','play']
 slices=[3,7,8,6]
@@ -77,7 +77,7 @@ plt.show()
 ```
 <img width="1057" height="624" alt="image" src="https://github.com/user-attachments/assets/f32b17cf-a243-4417-8f4c-428bcc746931" />
 <img width="1025" height="417" alt="image" src="https://github.com/user-attachments/assets/03ec1e8e-def9-4103-8913-f4bc173f282a" />
-## Area Chart <br>
+ Area Chart <br>
 ```
 x = [1, 2, 3, 4, 5]
 y1 = [10, 12, 14, 16, 18]
@@ -91,7 +91,7 @@ plt.legend(['y1','y2'])
 plt.show()
 ```
 <img width="1063" height="586" alt="image" src="https://github.com/user-attachments/assets/b53992fe-a3f5-4aed-9336-4c68b4cfd8b1" />
-## Bar Chart: <br>
+ Bar Chart: <br>
 ```
 height = [10, 24, 36, 40, 5]
 names = ['one', 'two', 'three', 'four', 'five']
@@ -104,14 +104,14 @@ plt.title('My bar chart!')
 plt.show()
 ```
 <img width="1048" height="602" alt="image" src="https://github.com/user-attachments/assets/d1900ff9-6b5d-45b2-9b49-8ad6f03248b0" />
-## Histogram <br>
+ Histogram <br>
 ```
 x = [2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1]
 plt.hist(x, bins = 10, color='black', alpha=0.5)
 plt.show()
 ```
 <img width="1047" height="471" alt="image" src="https://github.com/user-attachments/assets/b5337bda-6c02-4f1d-859a-f07938693557" />
-## Box Plot: <br>
+ Box Plot: <br>
 ```
 np.random.seed(0)
 data=np.random.normal(loc=0, scale=1, size=100)
