@@ -103,6 +103,7 @@ data=np.random.normal(loc=0, scale=1, size=100)
 data
 ```
 <img width="1101" height="434" alt="image" src="https://github.com/user-attachments/assets/e0d3d15c-24b2-425a-be88-699c5e2a9124" />
+
 ```
 fig, ax= plt.subplots()
 ax.boxplot(data)
