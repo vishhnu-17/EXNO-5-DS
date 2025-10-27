@@ -36,10 +36,11 @@ attendence=[90,85,73,88]
 plt.plot(attendence,student)
 plt.xlabel('Attendence')
 plt.ylabel('Student name')
-plt.show()```
+plt.show()
+```
 <img width="1115" height="662" alt="image" src="https://github.com/user-attachments/assets/d4e953bd-deff-4dec-afbe-cbeb039e4c5f" />
 <img width="954" height="584" alt="image" src="https://github.com/user-attachments/assets/d8eb0001-48bc-4786-93d2-9053eb1ea5a6" /> <br>
-  Scatter Plot: 
+Scatter Plot: <br> 
 ```
 x=[10,20,30,40,50]
 y=[100,200,300,400,500]
