@@ -101,13 +101,16 @@ plt.show()
 np.random.seed(0)
 data=np.random.normal(loc=0, scale=1, size=100)
 data
+```
 <img width="1101" height="434" alt="image" src="https://github.com/user-attachments/assets/e0d3d15c-24b2-425a-be88-699c5e2a9124" />
+```
 fig, ax= plt.subplots()
 ax.boxplot(data)
 ax.set_xlabel('Data')
 ax.set_ylabel('Values')
 ax.set_title('Box Plot')
-<img width="1119" height="600" alt="image" src="https://github.com/user-attachments/assets/5b59f1fd-47a1-4489-a85a-9e34d8219303" />
 ```
+<img width="1119" height="600" alt="image" src="https://github.com/user-attachments/assets/5b59f1fd-47a1-4489-a85a-9e34d8219303" />
+
 # Result:
 Thus, the Data Visualization using seaborn python library for the given data is implemented successfully
