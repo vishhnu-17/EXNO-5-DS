@@ -24,7 +24,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 ```
-## Line Plot
+## Line Plot <br>
 ```
 marks=[13,45,63,78]
 student=['ABC','QOR','EFB','TOB']
