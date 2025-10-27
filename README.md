@@ -57,6 +57,7 @@ plt.ylabel('y axis')
 plt.title('Scatter plot')
 plt.show()
 ```
+
 <img width="1042" height="628" alt="image" src="https://github.com/user-attachments/assets/2439860f-efd8-4e69-82f9-054182dfe4c2" />
 <img width="842" height="444" alt="image" src="https://github.com/user-attachments/assets/c8fc0adf-0ac5-468f-9d30-176adb151484" />
 ## Pie Chart
