@@ -25,8 +25,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 Line Plot <br>
-```
-marks=[13,45,63,78]
+```marks=[13,45,63,78]
 student=['ABC','QOR','EFB','TOB']
 plt.plot(marks,student)
 plt.xlabel('Marks')
@@ -37,8 +36,7 @@ attendence=[90,85,73,88]
 plt.plot(attendence,student)
 plt.xlabel('Attendence')
 plt.ylabel('Student name')
-plt.show()
-```
+plt.show()```
 <img width="1115" height="662" alt="image" src="https://github.com/user-attachments/assets/d4e953bd-deff-4dec-afbe-cbeb039e4c5f" />
 <img width="954" height="584" alt="image" src="https://github.com/user-attachments/assets/d8eb0001-48bc-4786-93d2-9053eb1ea5a6" /> <br>
   Scatter Plot: 
